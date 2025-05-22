@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="itzkaguya" fetch="https://github.com/hiratazx" clone-depth="1" />
+    <remote name="smiley" fetch="https://github.com/smiley9000" clone-depth="1" />
+    <remote name="citty" fetch="https://github.com/citty2029" clone-depth="1" />
+    <!-- Device -->
+    <project path="device/samsung/a10s" name="android_device_samsung_a10s" remote="itzkaguya" revision="thirteen" />
+
+    <!-- vendor  -->
+    <project path="vendor/samsung/a10s" name="prop_vendor_samsung_a10s" remote="citty" revision="los20" />
+
+    <!-- lpm -->
+    <project path="vendor/samsung/lpm" name="vendor_samsung_lpm-a10s" remote="smiley" revision="main" />
+
+</manifest>
